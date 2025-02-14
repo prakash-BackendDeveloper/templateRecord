@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(250, 243, 247);
+}
+.table-container {
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+header {
+  margin-top: 50px;
+  text-align: center;
+}
+#search {
+  width: 200px;
+  height: 30px;
+}
+.inline {
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+}
+table {
+  margin-left: 180px;
+  margin-top: 50px;
+  width: 70%;
+  border-collapse: collapse;
+}
+tr,
+th,
+td {
+  border: 1px solid black;
+  background-color: rgb(233, 158, 158);
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+th {
+  background-color: aquamarine;
+}
+
+.buttonIn {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  gap: 10px;
+}
+.edit {
+  background-color: rgb(60, 135, 164);
+  color: white;
+  width: 60px;
+  height: 20px;
+  border: none;
+  gap: 10px;
+}
+.delete {
+  background-color: rgb(243, 35, 35);
+  width: 50px;
+  height: 20px;
+  border: none;
+  color: white;
+}
+.cancel {
+  background-color: rgb(243, 35, 35);
+  width: 70px;
+  height: 20px;
+  border: none;
+  color: white;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  height: 350px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  justify-content: space-between;
+}
+.btn {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.add {
+  background-color: rgb(57, 59, 192);
+  color: white;
+  width: 150px;
+  height: 30px;
+}
